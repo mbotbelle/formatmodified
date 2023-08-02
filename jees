@@ -1,0 +1,6 @@
+<script id='formatmodified' target='amp-script' type='text/plain'>
+		var dates = <data:post.lastUpdatedISO8601/>;
+		var dateu = new Date(dates);
+		var months = [&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;];
+		document.getElementById(&quot;formatmodified&quot;).innerHTML = &quot;&quot; + dateu.getDate() + months[dateu.getMonth()] + dateu.getFullYear();
+	  </script>
